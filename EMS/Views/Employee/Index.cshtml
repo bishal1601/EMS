@@ -1,0 +1,15 @@
+﻿@model EmployeeVm
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>
+    Add Employee
+</h1>
+<form method="post">
+    Name : <input type="text"  asp-for="Name" placeholder="Full Name" /><br /><br />
+    Address : <input type="text" asp-for="Address" placeholder="Address" /><br /><br />
+    Contact : <input type="text" asp-for="Contact" placeholder="Contact" /><br /><br />
+    <button type="submit" > Submit</button>
+
+</form>
